@@ -4,10 +4,16 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    background-color: #FFF8F3;;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:  0px 150px;
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -50,4 +56,22 @@ nav ul li a {
     line-height: normal;
     color: #fff;
     padding: 18px 35px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+ .profile-picture {
+    width: 500px;
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+.text{
+    width: 585px;
 }
