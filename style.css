@@ -97,3 +97,40 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .about-info{
+    text-align: center;
+ }
+ #what-i-do-description{
+    padding: 30px 150px;
+ }
+ .skills-container{
+    display: flex;
+ }
+.skills{
+    padding: 30px;
+    gap: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+}
+ .skill-description{
+    padding: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+ }
+ .skill-title{
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
