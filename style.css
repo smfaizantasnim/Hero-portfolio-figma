@@ -120,7 +120,7 @@ line-height: 30px; /* 166.667% */
     gap: 24px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-}
+
  .skill-description{
     padding: 30px;
     font-size: 16px;
@@ -170,13 +170,16 @@ padding: 30px 100px;
  .section-title{
     padding: 30px 150px;
  }
- .btn-primary{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+
  .download-cv{
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
  }
