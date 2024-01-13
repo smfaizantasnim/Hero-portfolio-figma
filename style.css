@@ -127,10 +127,56 @@ line-height: 30px; /* 166.667% */
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
+
  }
  .skill-title{
     font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+ }
+ /*Resume Section*/
+
+ .resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 30px;
+ }
+ .resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+padding: 30px 100px;
+ }
+ .resume-item{
+  
+ }
+ .resume-item-description{
+    color: #757575;
+ }
+ .resume-item-info{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: opx;
+ }
+ .resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+
+ .section-title{
+    padding: 30px 150px;
+ }
+ .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .download-cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
